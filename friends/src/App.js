@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Router>
         <nav>
-        <NavLink to="/">
+          <NavLink to="/">
             <h3 className="navLink">Home</h3>
           </NavLink>
           <NavLink to="/login">
