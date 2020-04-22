@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 805;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  background-color: blue;
+}
+
+h2 {
+  font-size: 2.75rem;
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h3, h4 {
+  color: white;
+}
+
+.navLink {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+input {
+  width: 60%;
+  height: 35px;
+  margin: 5px;
+  font-size: 1.25rem;
+}
+
+button {
+  width: 25%;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: blue;
+}
+
+.formContainer {
+  border: solid 2px blue;
+  padding: 15px auto;
+  width: 80%;
+  margin: 15px auto;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+}
+
+.addContainer {
+  border: solid 2px blue;
+  padding: 15px auto;
+  width: 80%;
+  margin: 15px auto;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+}
+
+.listContainer {
+  padding: 15px auto;
+  width: 80%;
+  margin: 15px auto;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardDiv {
+  width: 30%;
+  background-color: blue;
+  margin: 15px auto;
+  border-radius: 10px;
+  border: solid 2px lightblue;
+}
+
+.smallContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: -10px;
+  margin: -10px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
